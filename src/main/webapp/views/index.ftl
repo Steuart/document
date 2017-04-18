@@ -25,20 +25,20 @@
 
 
         <!-- Add your site or application content here -->
-        <h1 class="title">${msg}</h1>
-
-        <div class="row body">
-            <div class="col-md-2 left">
-asdda
+        <h1 class="title">项目列表</h1>
+        <body class="body">
+            <ol class="items">
+                <li>Coffee</li>
+                <li>Tea</li>
+                <li>Milk</li>
+            </ol>
+            <div class="add">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                </button>
             </div>
-            <div class="col-md-7 middle">
+        </body>
 
-            </div>
-            <div class="col-md-3 right">
-
-
-            </div>
-        </div>
 
         <script src="../public/lib/jquery-2.2.1.min.js"></script>
         <script src="../public/lib/bootstrap/js/bootstrap.min.js"></script>

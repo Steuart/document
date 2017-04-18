@@ -24,10 +24,8 @@
          <!-- 配置初始化大小、最小、最大 -->  
         <property name="initialSize" value="${druid.pool.size.init}" />  
         <property name="minIdle" value="${druid.pool.size.min}" />   
-        <property name="maxActive" value="${druid.pool.size.max}" />  
-        
-        <!-- 配置监控统计拦截的filters，wall用于防止sql注入，stat用于统计分析 -->
-        <property name="filters" value="wall,stat" /> 
+        <property name="maxActive" value="${druid.pool.size.max}" />
+
     </bean>
     
 

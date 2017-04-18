@@ -13,6 +13,9 @@
         <param-value>
             classpath*:spring/spring-dao.xml,
             classpath*:spring/spring-service.xml
+            <!--classpath*:spring/spring-redis.xml,
+            classpath*:spring/spring-quartz.xml-->
+            <!--classpath*:spring/spring-shiro.xml-->
         </param-value>
     </context-param>
 
@@ -33,6 +36,7 @@
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 
+
     <!-- 编码过滤器 -->
     <filter>
         <filter-name>encodingFilter</filter-name>
@@ -49,7 +53,4 @@
     </filter-mapping>
 
 
-    <welcome-file-list>
-        <welcome-file>index.html</welcome-file>
-    </welcome-file-list>
 </web-app>
