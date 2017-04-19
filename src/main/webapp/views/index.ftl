@@ -26,19 +26,112 @@
 
         <!-- Add your site or application content here -->
         <h1 class="title">项目列表</h1>
-        <body class="body">
+        <div class="body">
             <ol class="items">
-                <li>Coffee</li>
-                <li>Tea</li>
-                <li>Milk</li>
+                <li>
+                    <p>1.Coffee</p>
+                    <p>sdafasdfsadfasdffdas</p>
+                    <div class="operate">
+                        <span data-toggle="modal" data-target="#check" class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                        <span data-toggle="modal" data-target="#edit" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                        <span data-toggle="modal" data-target="#delete" class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                    </div>
+                </li>
+                <li>
+                    <p>2.Milk</p>
+                    <div class="operate">
+                        <span data-toggle="modal" data-target="#check" class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                        <span data-toggle="modal" data-target="#edit" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                        <span data-toggle="modal" data-target="#delete" class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                    </div>
+                </li>
+                <li>
+                    <p>3.Find</p>
+                    <div class="operate">
+                        <span data-toggle="modal" data-target="#check" class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
+                        <span data-toggle="modal" data-target="#edit" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                        <span data-toggle="modal" data-target="#delete" class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+                    </div>
+                </li>
             </ol>
             <div class="add">
-                <button type="button" class="btn btn-default" aria-label="Left Align">
+                <button data-toggle="modal" data-target="#add" type="button" class="btn btn-default" aria-label="Left Align">
                     <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
                 </button>
             </div>
-        </body>
+        </div>
 
+        <div class="modal fade" id="check" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="edit" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="delete" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="add" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>One fine body&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <script src="../public/lib/jquery-2.2.1.min.js"></script>
         <script src="../public/lib/bootstrap/js/bootstrap.min.js"></script>
