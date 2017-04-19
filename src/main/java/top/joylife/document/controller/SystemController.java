@@ -51,4 +51,9 @@ public class SystemController {
     public String webSocket(){
         return "websocket";
     }
+
+    @RequestMapping("project")
+    public String project(){
+        return "project";
+    }
 }

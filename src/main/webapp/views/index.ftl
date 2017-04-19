@@ -29,7 +29,7 @@
         <div class="body">
             <ol class="items">
                 <li>
-                    <p>1.Coffee</p>
+                    <a href="/project">1.Coffee</a>
                     <p>sdafasdfsadfasdffdas</p>
                     <div class="operate">
                         <span data-toggle="modal" data-target="#check" class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
@@ -38,7 +38,7 @@
                     </div>
                 </li>
                 <li>
-                    <p>2.Milk</p>
+                    <a href="/project">2.Coffee</a>
                     <div class="operate">
                         <span data-toggle="modal" data-target="#check" class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
                         <span data-toggle="modal" data-target="#edit" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
@@ -46,7 +46,7 @@
                     </div>
                 </li>
                 <li>
-                    <p>3.Find</p>
+                    <a href="/project">3.Coffee</a>
                     <div class="operate">
                         <span data-toggle="modal" data-target="#check" class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>
                         <span data-toggle="modal" data-target="#edit" class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
